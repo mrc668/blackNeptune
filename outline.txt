@@ -1,0 +1,80 @@
+**Chapter 1. Introduction:**
+- Introduce John Reynolds, the new Director of Security.
+- Introduce the manufacturing company and its concerns about potential cyber incidents.
+- Present key figures: CIO (John's boss), IT leadership, and CEO/chairman of the board.
+- Highlight the current state of ITIL processes, focusing on ticket tracking.
+- John spends time with senior leadership on an individual basis building relationships with them.
+- it doesn't really matter to whom Jonn reports, CIO, CFO, CEO, COO, VP Ops
+
+**Chapter 2. Board of Directors' Concerns:**
+- Board expresses fears of production shutdown due to cyber threats.
+- John presents the NIST Cybersecurity Framework as a solution.
+- Encounter a minor network outage due to an unauthorized home router, emphasizing the lack of change control and other ITIL processes.
+- learn about the layout of IT. There are only 3 vlans, IT/OT, phones and public facing.
+
+**Chapter 3. Changing Corporate Culture:**
+- John initiates a cybersecurity awareness campaign.
+- Faces resistance from employees accustomed to hourly pay and lacking motivation for security.
+- Introduce the VP of marketing as an antagonist to security initiatives.
+- one of the HR admins is looking for employment outside of the company.
+  
+**Chapter 3a. HR and Access Management:**
+- Attempt to shift responsibility for adding/removing staff from AD to HR.
+- HR faces challenges in coordinating access requirements from hiring managers.
+- Emphasize HR's reluctance to take on this responsibility.
+
+**Chapter 3b. RDP and Admin Accounts:**
+- Introduce Remote Desktop Protocol (RDP) and administrative account changes.
+- HR resists the proposed changes, creating internal conflicts.
+
+**Chapter 4. Vulnerability Management Program:**
+- Develop a plan to identify and mitigate vulnerabilities.
+- IT struggles with network mapping and data classification.
+- SOC rewards points for operators identifying vulnerabilities.
+- Highlight a security incident due to HR's failure to lock a departing employee's account.
+
+**Chapter 5. Incident Response Plan:**
+- Form an incident response team.
+- Conduct tabletop exercises to test the IR plan.
+- Introduce the affair between the COO and the VP of sales.
+
+**Chapter 6. Third-Party Auditors:**
+- Hire external auditors to assess the cybersecurity program.
+- Auditors provide recommendations, contributing to internal challenges.
+
+**Chapter 7. Breach Occurs:**
+- EA to the Senior VP falls victim to a phishing attack.
+- Phish originates from a terminated employee's account.
+
+**Chapter:  pivot and extend
+- Threat actors exploit the breach, gaining access to sensitive information.
+- HR database is locked, jeopardizing payroll.
+
+**Chapter 8. Response to the Breach:**
+- IR team analyzes the situation and explores options.
+- leadership is working to control the message to the point of there is no breach.
+- Threat actors escalate by threatening to expose sensitive personal information.
+  
+**Chapter 9. Impact on Employees:**
+- Individual contributors learn about the breach through extortion attempts.
+- Frustration and fear spread among the workforce.
+
+**Chapter 10. Senior Leadership Crisis:**
+- COO's affair exposed, creating personal and professional turmoil.
+- Senior VP contemplates terminating the EA.
+
+**Chapter 11. John's Advice:**
+- John advises against blaming the EA, stressing the importance of reporting phishing incidents.
+
+**Chapter 12. Phishing Program and Lessons Learned:**
+- Evaluate the effectiveness of the phishing program.
+- Reflect on missed opportunities to prevent the breach.
+
+**Chapter 13. Supply Chain Protection:**
+- Extend cybersecurity measures to suppliers.
+- Mandate cyber insurance for vendors.
+
+**Chapter 14. Conclusion:**
+- Resolution of the breach and its aftermath.
+- Company-wide lessons learned and a renewed commitment to cybersecurity.
+

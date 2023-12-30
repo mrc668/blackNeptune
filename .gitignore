@@ -1,0 +1,19 @@
+# Latex files.
+*.aux
+*.toc
+*~
+*.out
+*.log
+*.lot
+*.lof
+*.backup
+
+# vim files
+*swp
+
+# build files
+**log
+*log
+env
+.env
+
