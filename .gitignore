@@ -17,3 +17,9 @@
 env
 .env
 
+# binary/built files
+*.png
+*.gif
+*.jpg
+*.pdf
+

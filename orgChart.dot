@@ -1,0 +1,74 @@
+digraph orgChart {
+	// dot orgChart.dot -Tpng -oorgChart.png
+	nodespe=1.0
+
+	rankdir=TB;
+	node [ color=Red,fontanme=Courier,shape=box]
+	edge [ color=blue,style=dashed]
+
+	
+	Owner -> Csuite -> SLT -> Managers -> l5 -> l4 -> l3 -> l2 -> EA 
+	COO -> CEO
+	CIO -> CEO
+	CFO -> CEO
+	DirRND -> CEO
+
+	{rank=same; Owner CEO }
+	{rank=same; Csuite COO CFO}
+
+	VPSales -> CFO
+	VPFinance -> CFO
+	VPHR -> CFO
+	Payroll -> VPHR
+	Staffing -> VPHR
+
+	{rank=same; SLT CIO DirRND VPSales VPFinance VPHR PMO }
+
+	DirInfra -> CIO
+	DirApps -> CIO
+	DirCyber -> CIO
+	PMO -> CIO
+	Servers -> DirInfra
+	Dev1 -> DirApps
+	Dev2 -> DirApps
+	Dev3 -> DirApps
+	Dev4 -> DirApps
+	Dev5 -> DirApps
+
+	{rank=same; Managers DirInfra DirApps DirCyber DirManf}
+
+	DSS1 -> DirInfra
+	DSS2 -> DirInfra
+
+	DirSec -> COO
+	DirOps -> COO
+	DirManf -> COO
+
+
+	{rank=same; Managers DirSec DirOps }
+
+	EACEO -> CEO
+	EACOO -> COO
+	EAVPFin -> VPFinance
+	{rank=same; EA EACEO EACOO EAVPFin }
+	{rank=same; l5 Payroll Staffing }
+	{rank=same; l4 Dev1 Dev2 }
+	{rank=same; l3 Dev3 }
+	{rank=same; l2 Dev4 Dev5 Servers}
+	{rank=same; EA DSS1 DSS2 }
+
+	MatScience -> DirRND
+	Printing -> DirRND
+
+	{rank=same; l5 MatScience }
+	{rank=same; l3 Printing }
+
+	ActM1 -> VPSales //Mining// 
+	ActM2 -> VPSales //Aerospace// 
+	ActM3 -> VPSales //Auto// 
+
+	{rank=same; l5  ActM1  }
+	{rank=same; l4  ActM2  }
+	{rank=same; l3  ActM3  }
+}
+
